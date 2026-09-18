@@ -1,0 +1,16 @@
+{
+  "name": "evidence-event-gate",
+  "version": "0.1.0",
+  "description": "Deterministic evidence and publication gates for source-backed event summaries.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["provenance", "publishing", "editorial", "civic-tech", "evidence"],
+  "author": "Perr Tang <perr.tang@gmail.com>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/perrtang/evidence-event-gate.git" },
+  "bugs": { "url": "https://github.com/perrtang/evidence-event-gate/issues" },
+  "homepage": "https://github.com/perrtang/evidence-event-gate#readme",
+  "engines": { "node": ">=20" }
+}
